@@ -1,0 +1,9 @@
+{
+  "name": "lively-subserver",
+  "version": "0.1.0",
+  "description": "An example Lively subserver with a Lively environment.",
+  "author": "Christopher Schuster <cs@livoris.de>",
+  "dependencies": {
+    "LivelyKernel": "https://github.com/LivelyKernel/LivelyKernel/tarball/nodejs"
+  }
+}
