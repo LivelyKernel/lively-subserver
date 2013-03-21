@@ -31,6 +31,7 @@ follows:
 
     $ curl -d "task=make coffee" http://localhost:9001/nodejs/scheduler-server/
     Scheduled make coffee.
+
     $ curl http://localhost:9001/nodejs/scheduler-server/
     make coffee (1%)
     <idle>
@@ -38,6 +39,7 @@ follows:
 
     $ curl -d "task=walk dog" http://localhost:9001/nodejs/scheduler-server/
     Scheduled walk dog.
+
     $ curl http://localhost:9001/nodejs/scheduler-server/
     make coffee (3%)
     walk dog (1%)
